@@ -9,7 +9,6 @@ To address this issue, this paper proposes the least disagree metric (LDM), defi
 - Linux
 - Python 3.7
 - NVIDIA GPU + CUDA 10.0, CuDNN 7.6
-- 
 
 ### Installation
 The required Python3 packages can be installed using
@@ -33,10 +32,11 @@ arguments:
 --nBatch: batch size for training
 --nEpoch: number of epochs for training
 --nValid: number of samples for validation set
---nQuery: number of queries at each step
 --nInit: number of initial labeled samples
---nStep: number of acquisition steps
 --nPool: number of samples for pooling set
+--nQuery: number of queries at each step
+--nStep: number of acquisition steps
+--nSample: number of samples for approximating rho
 ```
 
 The results will be saved in `results/{dataset}_{network}/test_accs_{#rep}.txt`
