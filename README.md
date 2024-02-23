@@ -9,6 +9,7 @@ To address this issue, this paper proposes the least disagree metric (LDM), defi
 - Linux
 - Python 3.7
 - NVIDIA GPU + CUDA 10.0, CuDNN 7.6
+- 
 
 ### Installation
 The required Python3 packages can be installed using
@@ -21,6 +22,11 @@ pip3 install -r requirements.txt
 python3 run_mnist.py
 ```
 runs an active learning experiment on MNIST dataset with S-CNN network, querying batches of 20 samples according to the LDM-S algorithm.
+
+```
+python3 run_cifar10.py
+```
+runs an active learning experiment on CIFAR10 dataset with K-CNN network, querying batches of 400 samples according to the LDM-S algorithm.
 
 arguments:
 ```
