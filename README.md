@@ -15,6 +15,7 @@ The Keras and TensorFlow 2.0 can be installed using
 ```
 pip3 install -r requirements.txt
 ```
+The code requires NumPy, CupPy, Scikit-learn, SciPy, and tqdm libraries.
 
 ### Running an experiment
 ```
