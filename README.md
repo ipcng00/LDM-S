@@ -11,7 +11,7 @@ To address this issue, this paper proposes the least disagree metric (LDM), defi
 - NVIDIA GPU + CUDA 10.0, CuDNN 7.6
 
 ### Installation
-The required Python3 packages can be installed using
+The Keras and TensorFlow 2.0 can be installed using
 ```
 pip3 install -r requirements.txt
 ```
