@@ -43,4 +43,4 @@ arguments:
 The results will be saved in `results/{dataset}_{network}/test_accs_{#rep}.txt`
 
 ## Contact
-If there are any questions or concerns, feel free to send a message at ipcng00@gmail.com
+If there are any questions or concerns, feel free to send a message at ipcng00@kaist.ac.kr
