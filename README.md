@@ -1,3 +1,18 @@
+Code for the paper [_Querying Easily Flip-flopped Samples for Deep Active Learning_](https://openreview.net/pdf?id=THUBTfSAS2) (ICLR 2024), by Seong Jin Cho, Gwangsu Kim, Junghyun Lee, Jinwoo Shin, and Chang D. Yoo.
+
+If you plan to use this repository or cite our paper, please use the following bibtex format:
+
+```latex
+@InProceedings{cho2024querying,
+	title = 	 {Querying Easily Flip-flopped Samples for Deep Active Learning},
+	author =       {Seong Jin Cho and Gwangsu Kim and Junghyun Lee and Jinwoo Shin and Chang D Yoo},
+	booktitle = 	 {Proceedings of The Twelfth International Conference on Learning Representations},
+	pages = 	 {},
+	year = 	 {2024},
+	volume = 	 {},
+}
+```
+
 # LDM-S in Keras
 An implementation of LDM-based active learning algorithm referred to as LDM-Seeding (LDM-S). The LDM is a measure of the sample's closeness to the decision boundary based on the disagree metric in hypothesis space.
 
