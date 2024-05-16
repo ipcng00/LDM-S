@@ -3,13 +3,11 @@ Code for the paper [_Querying Easily Flip-flopped Samples for Deep Active Learni
 If you plan to use this repository or cite our paper, please use the following bibtex format:
 
 ```latex
-@InProceedings{cho2024querying,
-	title = 	 {Querying Easily Flip-flopped Samples for Deep Active Learning},
-	author =       {Seong Jin Cho and Gwangsu Kim and Junghyun Lee and Jinwoo Shin and Chang D Yoo},
-	booktitle = 	 {Proceedings of The Twelfth International Conference on Learning Representations},
-	pages = 	 {},
-	year = 	 {2024},
-	volume = 	 {},
+@article{cho2024querying,
+  title={Querying Easily Flip-flopped Samples for Deep Active Learning},
+  author={Cho, Seong Jin and Kim, Gwangsu and Lee, Junghyun and Shin, Jinwoo and Yoo, Chang D},
+  journal={arXiv preprint arXiv:2401.09787},
+  year={2024}
 }
 ```
 
